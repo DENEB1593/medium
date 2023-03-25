@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="10a03c24-7e55-474f-ba0d-ca2403e4dc34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +218,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679669905866</updated>
       <workItem from="1679669907010" duration="4420000" />
-      <workItem from="1679715186935" duration="1082000" />
+      <workItem from="1679715186935" duration="1712000" />
     </task>
     <servers />
   </component>
