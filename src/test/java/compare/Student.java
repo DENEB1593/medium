@@ -1,5 +1,7 @@
 package compare;
 
+import java.util.Objects;
+
 public class Student implements Comparable<Student> {
   private String name;
   private int age;
@@ -46,5 +48,21 @@ public class Student implements Comparable<Student> {
     }
 
     return this.age > that.age ? 1 : -1;
+  }
+
+  // https://stackoverflow.com/questions/2265503/why-do-i-need-to-override-the-equals-and-hashcode-methods-in-java
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+    Student student = (Student) o;
+    return age == student.age && Objects.equals(name, student.name);
+  }
+
+  // hashCode의 경우 HashMap등에서 활용한다.
+  // 별도의 @Override를 하는 것도 좋다.
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, age);
   }
 }

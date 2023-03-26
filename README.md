@@ -8,3 +8,6 @@
  
 - #### 03.25: comparable
   참조: https://medium.com/edureka/comparable-in-java-e9cfa7be7ff7
+
+- #### 03.26: runnable vs callable
+  참조: https://medium.com/@pkslow/difference-between-callable-and-runnable-in-java-372985e21f9e
